@@ -8,6 +8,7 @@ import {
 } from './types.common';
 
 export enum BuiltInKeycodeModule {
+  MATTER = "matter",
   QMKLighting = 'qmk_lighting',
   WTLighting = 'wt_lighting',
 }
