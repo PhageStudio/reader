@@ -14,6 +14,7 @@
   ],
   "scripts": {
     "build": "npm run validate && npm run fix-util && tsc",
+    "prepare": "npm run build",
     "prepack": "npm run build",
     "test": "vitest",
     "test:update": "vitest -u",
